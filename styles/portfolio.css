@@ -1,4 +1,5 @@
 /*  coomon share styles */
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -12,11 +13,22 @@ nav{
     color: #FD6E0A;
 }
 .btn-primary{ 
-    border-radius: 5px;
+   
     background: #FD6E0A;
     border: 0;
     border-radius: 10px;
     color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.btn-primary2{ 
+    
+   margin-left: 25px;
+   border: 1px solid #FD6E0A;
+    border-radius: 10px;
+    color: #FD6E0A;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -43,15 +55,37 @@ nav a { text-decoration: none;
 }
 /* Header related color */
 .header {
-    background-color:#FFF8F3; ;
+    background-color:#FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
     
 }
 .baneer{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 00px 150px;
     display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 585px;
 }
 . .baneer .profile-pic{
   width: 500;
+}
+.banner-greeting{
+    font-size:45px;
+    color:#181818;
+    margin-bottom: 0px;
 
-
+}
+.banner-title{
+    margin-top: 5px;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner-p{
+    font-size: 18px;
+ font-weight: 400;
+ 
 }
