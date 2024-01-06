@@ -6,6 +6,7 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .text-primary{
     color: #FD6E0A;
@@ -39,4 +40,18 @@ nav li {
 nav a { text-decoration: none;
     color: #474747;
      
+}
+/* Header related color */
+.header {
+    background-color:#FFF8F3; ;
+    
+}
+.baneer{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+. .baneer .profile-pic{
+  width: 500;
+
+
 }
